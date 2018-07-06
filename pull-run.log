@@ -1,0 +1,10 @@
+2018-07-06 09:18:46 +0000 Puppet (notice): Compiled catalog for task-server.ec2.internal in environment production in 1.63 seconds
+2018-07-06 09:18:47 +0000 Puppet (notice): install docker
+2018-07-06 09:18:47 +0000 /Stage[main]/Install_docker/Notify[install docker]/message (notice): defined 'message' as 'install docker'
+2018-07-06 09:18:47 +0000 Puppet (notice): install compose
+2018-07-06 09:18:47 +0000 /Stage[main]/Install_docker_compose/Notify[install compose]/message (notice): defined 'message' as 'install compose'
+2018-07-06 09:18:47 +0000 Puppet (notice): running image
+2018-07-06 09:18:47 +0000 /Stage[main]/Pull/Notify[running image]/message (notice): defined 'message' as 'running image'
+2018-07-06 09:18:52 +0000 /Stage[main]/Pull/Exec[get login key]/returns (notice): executed successfully
+2018-07-06 09:19:04 +0000 /Stage[main]/Pull/Exec[compose up]/returns (notice): executed successfully
+2018-07-06 09:19:06 +0000 Puppet (notice): Applied catalog in 19.51 seconds
